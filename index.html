@@ -134,9 +134,9 @@
             <!-- Card 1 -->
             <div class="relative">
                 <img src="https://templates.thememodern.com/architect/images/Promotion/1.jpg" alt="Interior 1"
-                    class="w-96 h-96 object-cover">
+                    class="w-80 h-96 object-cover">
                 <div
-                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-96 h-96 flex flex-col justify-center items-center text-center">
+                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-80 h-96 flex flex-col justify-center items-center text-center">
                     <h2 class="text-2xl font-bold text-white mb-4">EXPERT INTERIOR</h2>
                     <p class="text-white mb-6 p-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi
                         similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
@@ -147,9 +147,9 @@
             <!-- Card 2 -->
             <div class="relative">
                 <img src="https://templates.thememodern.com/architect/images/Promotion/2.jpg" alt="Interior 2"
-                    class="w-96 h-96 object-cover">
+                    class="w-80 h-96 object-cover">
                 <div
-                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-96 h-96 flex flex-col justify-center items-center text-center">
+                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-80 h-96 flex flex-col justify-center items-center text-center">
                     <h2 class="text-2xl font-bold text-white mb-4">EXPERT INTERIOR</h2>
                     <p class="text-white mb-6 p-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi
                         similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
@@ -160,9 +160,9 @@
             <!-- Card 3 -->
             <div class="relative">
                 <img src="https://templates.thememodern.com/architect/images/Promotion/3.jpg" alt="Interior 3"
-                    class="w-96 h-96 object-cover">
+                    class="w-80 h-96 object-cover">
                 <div
-                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-96 h-96 flex flex-col justify-center items-center text-center">
+                    class="absolute inset-0 bg-gray-900 bg-opacity-50 w-80 h-96 flex flex-col justify-center items-center text-center">
                     <h2 class="text-2xl font-bold text-white mb-4">EXPERT INTERIOR</h2>
                     <p class="text-white mb-6 p-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi
                         similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
@@ -186,8 +186,8 @@
                 <div class="h-0.5 w-60 bg-gray-500"></div>
             </div>
         </div>
-        <div class="container mx-auto py-12">
-            <div class="flex justify-center space-x-12">
+        <div class="container mx-auto flex justify-center items-center min-h-7">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <!-- Creative Section -->
                 <div class="sec-5-image-1 text-center relative">
                     <p class="sec-5-pera-1-2 text-xl  mb-12">CREATIVE</p>
@@ -211,8 +211,8 @@
                 </div>
             </div>
         </div>
-        <div class="container mx-auto py-12">
-            <div class="flex justify-center space-x-12">
+        <div class="container mx-auto flex justify-center items-center mt-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <!-- Creative Section -->
                 <div class="sec-5-image-1 text-center relative">
                     <p class="sec-5-pera-1-2 text-xl  mb-12">DEVOTED</p>
@@ -239,7 +239,7 @@
     </section>
 
 
-    <div class="bg-gray-100 py-16 text-center">
+    <div class="bg-gray-100 py-16 text-center mt-16">
         <h2 class="text-2xl  mb-8 tracking-wide">LASTEST PROJECTS</h2>
         <div class="flex items-center justify-center mb-12">
             <div class="h-0.5 w-60 bg-gray-500"></div>
@@ -247,18 +247,13 @@
                 class="w-12" alt="">
             <div class="h-0.5 w-60 bg-gray-500"></div>
         </div>
-        <div class="flex justify-center space-x-4">
-            <button
-                class="px-4 py-2 bg-yellow-500 text-black  border border-transparent btn2">ALL
+        <div class="flex justify-center flex-wrap space-x-4">
+            <button class="px-4 py-2 bg-yellow-500 text-black  border border-transparent btn2">ALL
                 PROJECTS</button>
-            <button
-                class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">RESIDENTIAL</button>
-            <button
-                class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">ECOMMERCIAL</button>
-            <button
-                class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">OFFICE</button>
-            <button
-                class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">HOSPITAL</button>
+            <button class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">RESIDENTIAL</button>
+            <button class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">ECOMMERCIAL</button>
+            <button class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">OFFICE</button>
+            <button class="px-4 py-2 bg-white text-black  border border-gray-300 btn2">HOSPITAL</button>
         </div>
     </div>
 
@@ -266,32 +261,120 @@
     <div class="container mx-auto py-16">
         <h2 class="text-3xl font-bold mb-8 text-center">Project Gallery</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 px-8">
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/8.jpg" alt="Project Image 1" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/8.jpg" alt="Project Image 1"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">DREAM HOUSE</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/1.jpg" alt="Project Image 2" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/1.jpg" alt="Project Image 2"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">LIVING ROOM DECOR</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/2.jpg" alt="Project Image 3" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/2.jpg" alt="Project Image 3"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">OPEN SPACE HOUSE</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/3.jpg" alt="Project Image 4" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/3.jpg" alt="Project Image 4"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">BATHROOM FURNITURE</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/4.jpg" alt="Project Image 5" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/4.jpg" alt="Project Image 5"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">OPEN SPACE HOUSE</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/5.jpg" alt="Project Image 6" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/5.jpg" alt="Project Image 6"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">SKY HOTEL</h5>
+                    <p>Eccomercial</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/6.jpg" alt="Project Image 7" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/6.jpg" alt="Project Image 7"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">RANGE CORPORATE</h5>
+                    <p>Residential</p>
+                </div>
             </div>
-            <div class="overflow-hidden">
-                <img src="http://templates.thememodern.com/architect/images/Project/7.jpg" alt="Project Image 8" class="w-full h-auto">
+            <div class="overflow-hidden hover-overlay">
+                <img src="http://templates.thememodern.com/architect/images/Project/7.jpg" alt="Project Image 8"
+                    class="w-full h-full object-cover">
+                <div class="overlay-text">
+                    <h5 class="text-cyan-500">OCEAN VIEW</h5>
+                    <p>Office</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative h-52 bg-cover bg-center"
+            style="background-image: url('https://templates.thememodern.com/architect/images/Overlay/1.jpg');">
+            <div class="absolute inset-0 overlay"></div>
+            <div class="flex items-center justify-center h-full">
+                <button class="px-4 py-2 btn10">
+                    VIEW ALL PROJECT
+                </button>
             </div>
         </div>
     </div>
+
+    <section class="py-12">
+        <div class="text-center">
+            <h2 class="text-2xl">LASTEST FROM NEWS</h2>
+            <div class="flex justify-center mt-2" style="    align-items: center;">
+                <div class="h-0.5 w-60 bg-gray-500"></div>
+                <img src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740"
+                    class="w-14" alt="">
+                <div class="h-0.5 w-60 bg-gray-500"></div>
+            </div>
+        </div>
+        <div class="flex space-x-12 px-7">
+            <!-- First Card -->
+            <div class="w-1/2 bg-white rounded-lg overflow-hidden shadow-lg">
+                <img src="http://templates.thememodern.com/architect/images/Blog/1.jpg" alt="Interior Design Contest" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <div class="bg-yellow-400 text-black py-1 px-2 inline-block mb-4">21 MAY</div>
+                    <h2 class="text-xl font-bold mb-2">15 Notable products at ARC Interior Design Contest</h2>
+                    <p class="text-gray-600 mb-4">Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus
+                        pulvinar eu rhoncus ligula. Ut leo mauris, molestie imperdiet consequat in, varius ac sapien.
+                    </p>
+                    <button class="bg-yellow-400 text-black py-2 px-4 rounded">CONTINUE READING...</button>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="w-1/2 bg-white rounded-lg overflow-hidden shadow-lg">
+                <img src="http://templates.thememodern.com/architect/images/Blog/2.jpg" alt="Interior Design Trends" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <div class="bg-yellow-400 text-black py-1 px-2 inline-block mb-4">18 MAY</div>
+                    <h2 class="text-xl font-bold mb-2">2016 interior Design Trends</h2>
+                    <p class="text-gray-600 mb-4">Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus
+                        pulvinar eu rhoncus ligula. Ut leo mauris, molestie imperdiet consequat in, varius ac sapien.
+                    </p>
+                    <button class="bg-yellow-400 text-black py-2 px-4 rounded">CONTINUE READING...</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 

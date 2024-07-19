@@ -99,3 +99,63 @@
        background-color: black;
     }
 }
+
+.hover-overlay {
+    position: relative;
+}
+.hover-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-overlay:hover::before {
+    opacity: 0.5;
+}
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.overlay-text:hover {
+    animation: text 3s linear infinite;
+}
+.hover-overlay:hover .overlay-text {
+    opacity: 1;
+}
+
+@keyframes text {
+    from{
+        top: 10%;
+    }
+    to{
+        top: 100%;
+    }
+}
+
+.overlay {
+    background-color: rgba(255, 251, 0, 0.632); /* yellow with 50% opacity */
+}
+
+.btn10{
+    z-index: 1;
+    background-color: black;
+    color: white;
+    transition: all .3s linear;
+}
+
+.btn10:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
